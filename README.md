@@ -41,15 +41,15 @@
     ![image](https://user-images.githubusercontent.com/18648566/155855026-08b52406-acd0-4aa8-8270-00cd5e3a2f09.png)
     ![image](https://user-images.githubusercontent.com/18648566/155885321-5973448a-3382-4812-be33-be44ddfc9b64.png)
                                 Fig1: Block Diagram and Truth Table of Full Adder
-    The advantages of complementary CMOS logic circuit based full adder design are its layout regularity and stability at low voltage 
-    due to the complementary transistor pairs.
+    The advantages of complementary CMOS logic circuit based full adder design are its layout regularity and stability at low 
+    voltage due to the complementary transistor pairs.
     
-    A full adder is a digital circuit that performs addition. Full adders are implemented with logic gates in hardware. A full adder 
-    adds three one-bit binary numbers, two operands and a carry bit. The adder outputs two numbers, a sum and a carry bit. The term is 
-    contrasted with a half adder, which adds two binary digits.
-    A full adder takes two binary numbers plus a carry or overflow bit. The output is a sum and another carry bit. Full adders are made 
-    from XOR, AND and OR gates in hardware. Full adders are commonly connected to each other to add bits to an arbitrary length of bits, 
-    such as 32 or 64 bits. A full adder is effectively two half adders, an XOR and an AND gate, connected by an OR gate.
+    A full adder is a digital circuit that performs addition. Full adders are implemented with logic gates in hardware. A full
+    adder adds three one-bit binary numbers, two operands and a carry bit. The adder outputs two numbers, a sum and a carry bit. 
+    The term is contrasted with a half adder, which adds two binary digits.
+    A full adder takes two binary numbers plus a carry or overflow bit. The output is a sum and another carry bit. Full adders 
+    are made from XOR, AND and OR gates in hardware. Full adders are commonly connected to each other to add bits to an arbitrary
+    length of bits, such as 32 or 64 bits. A full adder is effectively two half adders, an XOR and an AND gate, connected by OR gate.
     
  #  Reference Circuit
     The Fig2 shows the schematic of 28T conventional CMOS design Full Adder. This design is based on complementary pull up and pull
@@ -63,19 +63,21 @@
  #  Tools used
     - Synopsys Custom Compiler: 
       The Synopsys Custom Compiler design environment includes features for mixed-signal design entry, design debug, 
-    simulation management, analysis, and reporting. The Synopsys Custom Compiler™ design environment is a modern solution for full-custom
-    analog, custom digital, and mixed-signal IC design. As the heart of the Synopsys Custom Design Platform, Custom Compiler provides 
-    design entry, simulation management and analysis, and custom layout editing features. It delivers industry-leading productivity,
-    performance, and ease-of-use while remaining easy to adopt for users of legacy tools.
+    simulation management, analysis, and reporting. The Synopsys Custom Compiler™ design environment is a modern solution for
+    full-custom analog, custom digital, and mixed-signal IC design. As the heart of the Synopsys Custom Design Platform, Custom 
+    Compiler provides design entry, simulation management and analysis, and custom layout editing features. It delivers industry-leading
+    productivity, performance, and ease-of-use while remaining easy to adopt for users of legacy tools.
     
     - Synopsys Primewave:
-      PrimeWave Design Environment is a comprehensive and flexible environment for simulation setup and analysis of analog, RF, mixed-signal 
-     design, custom-digital and memory designs within the Synopsys Custom Design Platform. It delivers a seamless simulation experience 
-     around all the engines of Synopsys PrimeSim Continuum, with comprehensive analysis, improved productivity, and ease of use. PrimeWave 
-     Design Environment also offers powerful Tcl-based scripting capability enabling easy regressions across thousands of corners.
+      PrimeWave Design Environment is a comprehensive and flexible environment for simulation setup and analysis of analog, RF,
+      mixed-signal design, custom-digital and memory designs within the Synopsys Custom Design Platform. It delivers a seamless simulation
+      experience around all the engines of Synopsys PrimeSim Continuum, with comprehensive analysis, improved productivity, and ease of
+      use. PrimeWave Design Environment also offers powerful Tcl-based scripting capability enabling easy regressions across thousands of 
+      corners.
       
     - Synopsys 28nm PDK kit:
        The Synopsys 28nm process design kit was used in creation and simulation of below design circuit.
+       
  #  Schematic in Synopsys Custom Compiler
  #  Carry Block
     - Schematic of Carry block:
