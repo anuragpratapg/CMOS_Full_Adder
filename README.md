@@ -54,11 +54,13 @@
  #  Reference Circuit
     The Fig2 shows the schematic of 28T conventional CMOS design Full Adder. This design is based on complementary pull up and pull
     down topologies and having high noise margin and reliability. The CMOS full adder suffers from large power consumption and high 
-    delay. We will also calculate average power consumption by the above circuit.
+    delay. 
+    ![image](https://user-images.githubusercontent.com/18648566/155890043-a9cbd59c-58f2-472e-adeb-ab935804ea2e.png)
     
  #  Reference Waveform
     This section presents simulation of reference waveform as shown in below Fig3. Conventional CMOS full adder considered in this work
     are simulated for getting proper outputs along with estimation of propagation delay and average power consumption.
+    ![image](https://user-images.githubusercontent.com/18648566/155890092-5abbae84-a28e-47e7-b8e0-ac6121cb6440.png)
     
  #  Tools used
     - Synopsys Custom Compiler: 
@@ -230,8 +232,8 @@ c1 sum gnd_1 c=2p
     2. [IIT, Hyderabad]{https://iith.ac.in/}
     3. [Synopsys India]{https://www.synopsys.com/}
     4. [VLSI System Design Pvt Ltd, India]{https://www.vlsisystemdesign.com/}
-    5. Especial Thanks to [Kunal Ghosh]{https://www.linkedin.com/in/kunal-ghosh-vlsisystemdesign-com-28084836/} (Co-founder of VSD pvt ltd), 
-       Chinmaya Panda (IIT, Hyderabad), Sameer Durgoji and his colleagues.
+    5. Especial Thanks to [Kunal Ghosh]{https://www.linkedin.com/in/kunal-ghosh-vlsisystemdesign-com-28084836/}
+       (Co-founder of VSD pvt ltd), Chinmaya Panda (IIT, Hyderabad), Sameer Durgoji and his colleagues.
     
  #  References
     1. Omid Kavehei, Mostafa Rahimi Azghadi, Keivan Navi and Amir-Pasha Mirbaha, Design of Robust and HighPerformance 1-Bit CMOS Full 
