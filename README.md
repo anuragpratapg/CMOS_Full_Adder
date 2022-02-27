@@ -220,7 +220,26 @@ c1 sum gnd_1 c=2p
 
 .end
 
+
  #  Calculation of Propagation delay 
+    
+    We have calculated average propagation delay as shown in below waveform:
+    
+    - Input(A) to Output(SUM)- Below images showing the rising and falling propagation delays at load capacitance = 2pF.
+   ![Trpd_a_sum](https://user-images.githubusercontent.com/18648566/155892562-dc9eaf80-323b-44ee-b84d-108e6f3c047f.PNG)
+   
+   ![Tfpd_a_sum](https://user-images.githubusercontent.com/18648566/155892624-aacfdd78-ab4a-4dad-9e39-cef8035c1e78.PNG)
+   
+    - Input(A) to Output(COUT)- Below images showing the rising and falling propagation delays at load capacitance = 2pF.
+   ![Trpd_a_cout](https://user-images.githubusercontent.com/18648566/155892596-439ea93c-0526-47fe-91b7-08d7cabf6ee1.PNG)
+   
+   ![tfpd_a_cout](https://user-images.githubusercontent.com/18648566/155892644-ca7dfad9-b610-4f5a-81fa-ac3b92ed8cfb.PNG)
+    
+    Finally below table depicts the average propagation delay of above CMOS Full adder design:
+    
+   ![table_pd](https://user-images.githubusercontent.com/18648566/155892688-02ab937e-63fd-4d40-9465-659e73495fa0.PNG)
+   
+   
  #  Conclusions
     The addition of single bit is achieved using 28T full adder. We get desired output waveform of Sum and Carry by 
     applying appropriate input supply.
