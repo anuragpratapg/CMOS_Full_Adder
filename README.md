@@ -83,7 +83,7 @@
  #  Schematic in Synopsys Custom Compiler
  #  Carry Block
     - Schematic of Carry block:
-      ![carry_ou_schematic](https://user-images.githubusercontent.com/18648566/155884054-2bce5fd1-5294-4536-83f9-124406af6680.PNG)
+      ![Carry_ou_schematic](https://user-images.githubusercontent.com/18648566/155884054-2bce5fd1-5294-4536-83f9-124406af6680.PNG)
 
     - Symbol of Carry block:
       ![carry_out_schematic](https://user-images.githubusercontent.com/18648566/155884096-c8727081-edfe-40d8-a7c7-2f7ccea1f2a5.PNG)
