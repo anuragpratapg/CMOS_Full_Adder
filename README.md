@@ -39,7 +39,9 @@
     COUT = C (A ⊕ B) + AB
     
     ![image](https://user-images.githubusercontent.com/18648566/155855026-08b52406-acd0-4aa8-8270-00cd5e3a2f09.png)
+    
     ![image](https://user-images.githubusercontent.com/18648566/155885321-5973448a-3382-4812-be33-be44ddfc9b64.png)
+    
                                 Fig1: Block Diagram and Truth Table of Full Adder
     The advantages of complementary CMOS logic circuit based full adder design are its layout regularity and stability at low 
     voltage due to the complementary transistor pairs.
