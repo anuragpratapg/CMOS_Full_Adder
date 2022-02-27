@@ -13,7 +13,7 @@
              - Input pulses for Inputs A,B and C
       - Output Waveform
       - Netlist
-      - Calculation of Propagation delay and Power Consumption
+      - Calculation of Propagation delay
       - Conclusions
       - Author
       - Acknowledgement
@@ -42,7 +42,14 @@
                                 Fig1: Block Diagram and Truth Table of Full Adder
     The advantages of complementary CMOS logic circuit based full adder design are its layout regularity and stability at low voltage 
     due to the complementary transistor pairs.
- 
+    
+    A full adder is a digital circuit that performs addition. Full adders are implemented with logic gates in hardware. A full adder 
+    adds three one-bit binary numbers, two operands and a carry bit. The adder outputs two numbers, a sum and a carry bit. The term is 
+    contrasted with a half adder, which adds two binary digits.
+    A full adder takes two binary numbers plus a carry or overflow bit. The output is a sum and another carry bit. Full adders are made 
+    from XOR, AND and OR gates in hardware. Full adders are commonly connected to each other to add bits to an arbitrary length of bits, 
+    such as 32 or 64 bits. A full adder is effectively two half adders, an XOR and an AND gate, connected by an OR gate.
+    
  #  Reference Circuit
     The Fig2 shows the schematic of 28T conventional CMOS design Full Adder. This design is based on complementary pull up and pull
     down topologies and having high noise margin and reliability. The CMOS full adder suffers from large power consumption and high 
@@ -104,6 +111,9 @@
      ![inputC](https://user-images.githubusercontent.com/18648566/155884273-b0c499f3-1d0d-49a7-b9e3-1b8cefe0722d.PNG)
 
  #  Output Waveform
+ 
+    ![output_wf](https://user-images.githubusercontent.com/18648566/155884437-c63cddd7-1125-436b-ba1c-85f729c69b77.PNG)
+
  #  Netlist
     *  Generated for: PrimeSim
 *  Design library name: FULL_ADDER
@@ -203,7 +213,7 @@ c1 sum gnd_1 c=2p
 
 .end
 
- #  Calculation of Propagation delay and Power Consumption
+ #  Calculation of Propagation delay 
  #  Conclusions
     The addition of single bit is achieved using 28T full adder. We get desired output waveform of Sum and Carry by applying appropriate 
     input supply.
@@ -218,6 +228,7 @@ c1 sum gnd_1 c=2p
     3. Synopsys India
     4. VLSI System Design Pvt Ltd, India
     5. Especial Thanks to Kunal Ghosh(Co-founder of VSD pvt ltd), Chinmaya Panda (IIT, Hyderabad), Sameer Durgoji and his colleagues.
+    
  #  References
     1. Omid Kavehei, Mostafa Rahimi Azghadi, Keivan Navi and Amir-Pasha Mirbaha, Design of Robust and HighPerformance 1-Bit CMOS Full 
     Adder, IEEE Computer Society Annual Symposium on VLSI.
