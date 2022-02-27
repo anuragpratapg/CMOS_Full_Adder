@@ -34,13 +34,11 @@
     in such a way that can take eight inputs together from ‘000’ to ‘111’ and produces two one-bit output i.e. sum and carry out.
     
     Equations of full adder based on the truth table-
-    SUM = A  (B  C) 
+    SUM = A ⊕ (B ⊕ C) 
     COUT = AB + BC + AC OR 
     COUT = C (A ⊕ B) + AB
-    
-    ![image](https://user-images.githubusercontent.com/18648566/155855026-08b52406-acd0-4aa8-8270-00cd5e3a2f09.png)
-    
-    ![image](https://user-images.githubusercontent.com/18648566/155885321-5973448a-3382-4812-be33-be44ddfc9b64.png)
+ 
+ ![image](https://user-images.githubusercontent.com/18648566/155888675-5adacaa7-41f3-4220-86af-073d04e762b6.png) 
     
                                 Fig1: Block Diagram and Truth Table of Full Adder
     The advantages of complementary CMOS logic circuit based full adder design are its layout regularity and stability at low 
@@ -83,41 +81,41 @@
  #  Schematic in Synopsys Custom Compiler
  #  Carry Block
     - Schematic of Carry block:
-      ![Carry_ou_schematic](https://user-images.githubusercontent.com/18648566/155884054-2bce5fd1-5294-4536-83f9-124406af6680.PNG)
+![carry_ou_schematic](https://user-images.githubusercontent.com/18648566/155888755-b55ac35e-5e20-4146-a8e5-dff07f46f716.PNG) 
 
     - Symbol of Carry block:
-      ![carry_out_schematic](https://user-images.githubusercontent.com/18648566/155884096-c8727081-edfe-40d8-a7c7-2f7ccea1f2a5.PNG)
+ ![carry_out_schematic](https://user-images.githubusercontent.com/18648566/155888812-18e3a456-e573-42c2-a2c5-98c1c6fafdc9.PNG)    
 
  #  Sum Block
     - Schematic of Sum Block:
-      ![sum_schematic](https://user-images.githubusercontent.com/18648566/155884120-d404c334-2991-4273-a4e9-c17368ca0fe2.PNG)
+![sum_schematic](https://user-images.githubusercontent.com/18648566/155888870-45ae726a-0eca-4777-bbe9-9ecf3c3979e7.PNG)      
 
     - Symbol of Sum Block:
-      ![sum_symbol](https://user-images.githubusercontent.com/18648566/155884139-3965aa1a-16a6-4a58-8cc1-8c14509f26a9.PNG)
+![sum_symbol](https://user-images.githubusercontent.com/18648566/155888889-4cb1461c-98d2-473e-a021-31327c7d7b44.PNG)     
 
  #  Top level Full adder 
     - Schematic of Full adder:
-      ![top_level_real](https://user-images.githubusercontent.com/18648566/155884230-3cd2f2be-1c51-4395-8989-63cd8c619917.PNG)
+ ![top_level_real](https://user-images.githubusercontent.com/18648566/155888922-b19db7cb-09a8-411c-9691-6b14420eacbd.PNG)     
 
     - Symbol of Full adder:
-      ![full_adder_symbol](https://user-images.githubusercontent.com/18648566/155884166-36db43f9-6d47-466a-b49d-cbb56788a8a6.PNG)
+ ![full_adder_symbol](https://user-images.githubusercontent.com/18648566/155888949-ad5ea190-cd6d-450e-8747-de17f7b7a65c.PNG)     
    
     - Schematic for simulation of Full adder design
-      ![top_level](https://user-images.githubusercontent.com/18648566/155884207-44e318bc-4dd6-43e3-a3c2-e675b66c9436.PNG)
+  ![top_level](https://user-images.githubusercontent.com/18648566/155888976-07c14035-1f07-4933-a3df-b206ad09b968.PNG)   
 
  #  Input voltage pulses for Inputs A,B and C
     - Input A:
-    ![inputA](https://user-images.githubusercontent.com/18648566/155884249-cd108d1e-5dcc-4180-b745-8b63d2ad9624.PNG)
+ ![inputA](https://user-images.githubusercontent.com/18648566/155889006-01ec8bc8-d4c6-41ce-b770-303f4569c614.PNG)  
 
     - Input B:
-    ![inputB](https://user-images.githubusercontent.com/18648566/155884261-4700641b-a300-4e4c-b66e-bc80dd9a227d.PNG)
+ ![inputB](https://user-images.githubusercontent.com/18648566/155889015-5e54573d-f96b-4014-9ada-e30b529f8bac.PNG)   
 
     - Input C:
-     ![inputC](https://user-images.githubusercontent.com/18648566/155884273-b0c499f3-1d0d-49a7-b9e3-1b8cefe0722d.PNG)
+ ![inputC](https://user-images.githubusercontent.com/18648566/155889033-7246d40d-4391-4be3-8dbb-586d6689b2cc.PNG)    
 
  #  Output Waveform
- 
-    ![output_wf](https://user-images.githubusercontent.com/18648566/155884437-c63cddd7-1125-436b-ba1c-85f729c69b77.PNG)
+ ![output_wf](https://user-images.githubusercontent.com/18648566/155889076-c4b53eb5-cd0b-41ac-af88-4aa6ed5969b0.PNG)
+    
 
  #  Netlist
     *  Generated for: PrimeSim
