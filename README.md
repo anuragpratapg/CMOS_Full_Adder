@@ -242,7 +242,7 @@ c1 sum gnd_1 c=2p
    
  #  Conclusions
     The addition of single bit is achieved using 28T full adder. We get desired output waveform of Sum and Carry by 
-    applying appropriate input supply.
+    applying appropriate input supply and also calculated propagation delay for above circuit design.
     
  #  Author
     Anurag Pratap Singh
