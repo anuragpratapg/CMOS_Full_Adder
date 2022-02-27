@@ -55,12 +55,14 @@
     The Fig2 shows the schematic of 28T conventional CMOS design Full Adder. This design is based on complementary pull up and pull
     down topologies and having high noise margin and reliability. The CMOS full adder suffers from large power consumption and high 
     delay. 
-    ![image](https://user-images.githubusercontent.com/18648566/155890043-a9cbd59c-58f2-472e-adeb-ab935804ea2e.png)
+    
+   ![image](https://user-images.githubusercontent.com/18648566/155890043-a9cbd59c-58f2-472e-adeb-ab935804ea2e.png)
     
  #  Reference Waveform
     This section presents simulation of reference waveform as shown in below Fig3. Conventional CMOS full adder considered in this work
     are simulated for getting proper outputs along with estimation of propagation delay and average power consumption.
-    ![image](https://user-images.githubusercontent.com/18648566/155890092-5abbae84-a28e-47e7-b8e0-ac6121cb6440.png)
+    
+   ![image](https://user-images.githubusercontent.com/18648566/155890092-5abbae84-a28e-47e7-b8e0-ac6121cb6440.png)
     
  #  Tools used
     - Synopsys Custom Compiler: 
