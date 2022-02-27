@@ -226,11 +226,12 @@ c1 sum gnd_1 c=2p
     Bangalore- 560100
     
  #  Acknowledgement
-    1. Cloud based Analog IC Design Hackathon
-    2. IIT, Hyderabad
-    3. Synopsys India
-    4. VLSI System Design Pvt Ltd, India
-    5. Especial Thanks to Kunal Ghosh(Co-founder of VSD pvt ltd), Chinmaya Panda (IIT, Hyderabad), Sameer Durgoji and his colleagues.
+    1. [Cloud based Analog IC Design Hackathon]{https://hackathoniith.in/}
+    2. [IIT, Hyderabad]{https://iith.ac.in/}
+    3. [Synopsys India]{https://www.synopsys.com/}
+    4. [VLSI System Design Pvt Ltd, India]{https://www.vlsisystemdesign.com/}
+    5. Especial Thanks to [Kunal Ghosh]{https://www.linkedin.com/in/kunal-ghosh-vlsisystemdesign-com-28084836/} (Co-founder of VSD pvt ltd), 
+       Chinmaya Panda (IIT, Hyderabad), Sameer Durgoji and his colleagues.
     
  #  References
     1. Omid Kavehei, Mostafa Rahimi Azghadi, Keivan Navi and Amir-Pasha Mirbaha, Design of Robust and HighPerformance 1-Bit CMOS Full 
